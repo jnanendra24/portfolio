@@ -22,7 +22,7 @@ function AchivementCard({
   link,
 }: AchivementCardProps) {
   return (
-    <Card className="w-screen lg:w-11/12">
+    <Card className="lg:w-11/12">
       <CardHeader className="flex flex-row justify-between items-center">
         <CardTitle>{title}</CardTitle>
         <div className="flex">
@@ -42,7 +42,7 @@ function AchivementCard({
         <CardDescription>{description}</CardDescription>
       </CardContent>
       <CardFooter>
-        <Avatar className="h-64 w-full rounded-none">
+        <Avatar className="h-32 md:h-64 w-full rounded-none">
           <AvatarImage src={imageSrc} className="cover" />
           <AvatarFallback className="rounded-none text-5xl">
             {title.slice(0, 1)}
