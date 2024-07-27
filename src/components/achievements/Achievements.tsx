@@ -5,7 +5,7 @@ function Achievements() {
     <>
       <section
         id="achievements"
-        className="h-screen pt-[9vh] flex flex-col items-center gap-4"
+        className=" pt-[9vh] flex flex-col items-center gap-4"
       >
         <h2 className="text-4xl text-balance text-center">
           Achievements & Certifications

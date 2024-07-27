@@ -42,7 +42,7 @@ function AchivementsCarousel() {
         opts={{
           align: "start",
         }}
-        className="w-screen md:w-10/12"
+        className="w-96 md:w-10/12"
       >
         <CarouselContent>
           {myAchievements.map((project, index) => (
@@ -51,8 +51,8 @@ function AchivementsCarousel() {
             </CarouselItem>
           ))}
         </CarouselContent>
-        <CarouselPrevious className="hidden md:block" />
-        <CarouselNext className="hidden md:block" />
+        <CarouselPrevious className="hidden md:flex" />
+        <CarouselNext className="hidden md:flex" />
       </Carousel>
     </>
   );

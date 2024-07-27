@@ -19,7 +19,7 @@ const Skills = () => {
         className="pt-[9vh] flex flex-col items-center justify-center gap-4"
       >
         <h2 className="text-4xl">Techincal Skills</h2>
-        <div className="w-fit mx-auto gap-4 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 place-items-center">
+        <div className="w-fit mx-auto gap-4 grid grid-cols-2 lg:grid-cols-4 place-items-center">
           {mySkills.map((techSkill) => (
             <Card className="w-full" key={techSkill.title}>
               <CardHeader>

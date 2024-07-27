@@ -42,7 +42,7 @@ function AchivementCard({
         <CardDescription>{description}</CardDescription>
       </CardContent>
       <CardFooter>
-        <Avatar className="h-32 md:h-64 w-full rounded-none">
+        <Avatar className="h-64 w-full rounded-none">
           <AvatarImage src={imageSrc} className="cover" />
           <AvatarFallback className="rounded-none text-5xl">
             {title.slice(0, 1)}
