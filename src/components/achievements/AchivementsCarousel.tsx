@@ -42,7 +42,7 @@ function AchivementsCarousel() {
         opts={{
           align: "start",
         }}
-        className="w-screen md:w-10/12 mx-4"
+        className="w-screen md:w-10/12"
       >
         <CarouselContent>
           {myAchievements.map((project, index) => (
