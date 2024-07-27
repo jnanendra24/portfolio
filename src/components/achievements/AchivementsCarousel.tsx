@@ -14,7 +14,7 @@ const myAchievements = [
     score: "82%",
     imageSrc:
       "https://res.cloudinary.com/duznb5jsl/image/upload/v1722063127/nptel_z8lfq5.png",
-    link: "/Data Science For Engineers.pdf",
+    link: "https://res.cloudinary.com/duznb5jsl/image/upload/v1722063399/Data_Science_For_Engineers_page-0001_nu4zz6.jpg",
   },
   {
     title: "Programming in Java",
@@ -32,7 +32,7 @@ const myAchievements = [
     score: "78%",
     imageSrc:
       "https://res.cloudinary.com/duznb5jsl/image/upload/v1722063127/nptel_z8lfq5.png",
-    link: "https://res.cloudinary.com/duznb5jsl/image/upload/v1722063399/Data_Science_For_Engineers_page-0001_nu4zz6.jpg",
+    link: "https://res.cloudinary.com/duznb5jsl/image/upload/v1722063239/data-structures_gfeyzi.jpg",
   },
 ];
 function AchivementsCarousel() {
