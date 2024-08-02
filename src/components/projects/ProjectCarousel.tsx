@@ -37,7 +37,7 @@ const myProjects = [
   {
     title: "Blog Website",
     description:
-      "Full-stack blog website with user authentication and authorization, leveraging Next.js and MongoDB. Features include user registration, login, and profile management, with the ability to create, edit, and delete blog posts.",
+      "Full-stack blog website with user authentication and authorization, leveraging React.js and MongoDB. Features include user registration, login, and profile management, with the ability to create, edit, and delete blog posts.",
     imageSrc:
       "https://res.cloudinary.com/duznb5jsl/image/upload/v1722061176/blog-website_e91ut1.png",
     githubLink: "https://github.com/jnanendra24/indhra_blogs",
